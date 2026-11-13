@@ -1,0 +1,154 @@
+"comment" = { fg = "comment" }
+"comment.block.documentation" = { fg = "comment_doc" }
+
+"keyword" = { fg = "keyword" }
+"keyword.control" = { fg = "keyword_control" }
+"keyword.control.import" = { fg = "keyword_control" }
+"keyword.control.return" = { fg = "keyword_control" }
+"keyword.control.exception" = { fg = "keyword_control" }
+"keyword.directive" = { fg = "keyword" }
+"keyword.operator" = { fg = "keyword" }
+"keyword.function" = { fg = "keyword" }
+"keyword.storage" = { fg = "keyword" }
+
+"string" = { fg = "string" }
+"string.regexp" = { fg = "regexp" }
+"string.special" = { fg = "string_escape" }
+"constant.character.escape" = { fg = "string_escape" }
+"constant.character" = { fg = "string" }
+
+"constant" = { fg = "constant" }
+"constant.builtin" = { fg = "keyword" }
+"constant.numeric" = { fg = "number" }
+
+"type" = { fg = "class" }
+"type.builtin" = { fg = "class" }
+"type.parameter" = { fg = "type_parameter" }
+"type.enum" = { fg = "class" }
+"type.enum.variant" = { fg = "enum_member" }
+"constructor" = { fg = "class" }
+"namespace" = { fg = "class" }
+"special" = { fg = "function" }
+
+"function" = { fg = "function" }
+"function.method" = { fg = "function" }
+"function.builtin" = { fg = "function" }
+"function.macro" = { fg = "function" }
+"function.special" = { fg = "function" }
+
+"variable" = { fg = "variable" }
+"variable.builtin" = { fg = "keyword" }
+"variable.parameter" = { fg = "variable" }
+"variable.other.member" = { fg = "constant" }
+
+"attribute" = { fg = "class" }
+"label" = { fg = "variable" }
+"operator" = { fg = "foreground" }
+"punctuation" = { fg = "foreground" }
+"punctuation.delimiter" = { fg = "foreground" }
+"punctuation.bracket" = { fg = "foreground" }
+
+"tag" = { fg = "keyword" }
+"markup.heading" = { fg = "keyword", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "constant", modifiers = ["underlined"] }
+"markup.link.text" = { fg = "string" }
+"markup.quote" = { fg = "comment" }
+"markup.raw" = { fg = "string" }
+
+"diff.plus" = { fg = "added" }
+"diff.minus" = { fg = "removed" }
+"diff.delta" = { fg = "modified" }
+
+"ui.background" = { bg = "background" }
+"ui.text" = { fg = "foreground" }
+"ui.text.focus" = { bg = "selection" }
+"ui.cursor" = { fg = "background", bg = "cursor" }
+"ui.cursor.primary" = { fg = "background", bg = "cursor" }
+"ui.cursor.match" = { bg = "bracket_match", modifiers = ["bold"] }
+"ui.cursorline.primary" = { bg = "cursorline" }
+"ui.cursorline.secondary" = { bg = "cursorline" }
+"ui.selection" = { bg = "selection" }
+"ui.selection.primary" = { bg = "selection" }
+"ui.linenr" = { fg = "line_number" }
+"ui.linenr.selected" = { fg = "line_number_active" }
+"ui.virtual.whitespace" = { fg = "whitespace" }
+"ui.virtual.indent-guide" = { fg = "indent_guide" }
+"ui.virtual.ruler" = { bg = "ruler" }
+"ui.virtual.inlay-hint" = { fg = "inlay_hint" }
+"ui.virtual.jump-label" = { fg = "jump_label", modifiers = ["bold"] }
+
+"ui.statusline" = { fg = "statusline_fg", bg = "statusline_bg" }
+"ui.statusline.inactive" = { fg = "line_number", bg = "panel" }
+"ui.statusline.normal" = { fg = "statusline_fg", bg = "accent" }
+"ui.statusline.insert" = { fg = "statusline_fg", bg = "added" }
+"ui.statusline.select" = { fg = "statusline_fg", bg = "keyword_control" }
+
+"ui.bufferline" = { fg = "line_number", bg = "panel" }
+"ui.bufferline.active" = { fg = "foreground", bg = "background" }
+"ui.bufferline.background" = { bg = "panel" }
+
+"ui.popup" = { fg = "foreground", bg = "panel" }
+"ui.window" = { fg = "border" }
+"ui.help" = { fg = "foreground", bg = "panel" }
+"ui.menu" = { fg = "foreground", bg = "panel" }
+"ui.menu.selected" = { bg = "selection" }
+"ui.menu.scroll" = { fg = "line_number", bg = "panel" }
+
+"diagnostic.error" = { underline = { color = "error", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "warning", style = "curl" } }
+"diagnostic.info" = { underline = { color = "info", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "hint", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"error" = { fg = "error" }
+"warning" = { fg = "warning" }
+"info" = { fg = "info" }
+"hint" = { fg = "hint" }
+
+[palette]
+background = "#1e1e1e"
+foreground = "#d4d4d4"
+panel = "#252526"
+border = "#454545"
+cursor = "#aeafad"
+cursorline = "#0a0a0aFF"
+ruler = "#2a2d2e"
+selection = "#264f78"
+bracket_match = "#515c6a"
+accent = "#007acc"
+statusline_bg = "#007acc"
+statusline_fg = "#ffffff"
+
+line_number = "#858585"
+line_number_active = "#c6c6c6"
+jump_label = "#f14c4c"
+whitespace = "#3b3b3b"
+indent_guide = "#404040"
+inlay_hint = "#6e7681"
+
+comment = "#6a9955"
+comment_doc = "#6a9955"
+keyword = "#569cd6"
+keyword_control = "#c586c0"
+string = "#ce9178"
+string_escape = "#d7ba7d"
+regexp = "#d16969"
+number = "#b5cea8"
+constant = "#DCDCDC"
+function = "#dcdcaa"
+variable = "#9cdcfe"
+
+class = "#4ec9b0"
+enum = "#b8d7a3"
+enum_member = "#b8d7a3"
+type_parameter = "#4ec9b0"
+
+added = "#587c0c"
+removed = "#f14c4c"
+modified = "#0c7d9d"
+
+error = "#f14c4c"
+warning = "#cca700"
+info = "#3794ff"
+hint = "#75beff"
