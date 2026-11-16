@@ -8,6 +8,7 @@ line-number = "absolute"
 scrolloff = 8
 bufferline = "multiple"
 color-modes = true
+shell = ["zsh", "-ic"]
 
 [editor.cursor-shape]
 insert = "bar"
